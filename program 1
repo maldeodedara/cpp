@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int m=10;
+int main()
+{
+	int m=10;
+	cout<<"value of local variable m is ::"<<m<<endl;
+	cout<<"value of global variable m is ::"<<::m;
+	return 0;
+}
